@@ -89,7 +89,7 @@ function App() {
       {
         !valueSi ? (
           <div className="p-5">
-            <h1 className="text-black font-bold text-7xl text-center">¿Quieres ser mi San Valentin?</h1>
+            <h1 className="text-black font-bold text-5xl text-center">¿Quieres ser mi San Valentin?</h1>
             <img src={Object.keys(randomValor).length === 0 ?
               "https://i.pinimg.com/originals/97/7e/27/977e2711b502b45fb7d0546cd0970550.gif" : randomValor.img} alt="San Valentin" className="mx-auto" width={400} height={400} />
             <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 items-center">
@@ -117,7 +117,7 @@ function App() {
           </div>
         ) : (
           <div className="flex justify-center items-center flex-col space-y-10">
-            <h1 className="text-6xl text-black font-bold">Yo sabia 😼 que vos querias 🖤!</h1>
+            <h1 className="text-4xl text-black items-center font-bold">Yo sabia 😼 que vos querias 🖤!</h1>
             <img src="https://media.tenor.com/n-vP_xDINYcAAAAi/tkthao219-tooji.gif" alt="" className="mx-auto" />
             <span hidden>{document.title = 'Yo sabia 😼 que vos querias 🖤!'}</span>
           </div>
